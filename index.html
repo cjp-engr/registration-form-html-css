@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel = "stylesheet" href = "css/style.css">
+<title>Atlantis Voter Registration Form</title>
+</head>
+
+<body>
+
+<form action = "index.html" method = "post">
+
+	<header>
+		<h1>Atlantis Voter Registration Form</h1>
+	</header>
+		<hr>
+		
+	<div class = "container">
+	<div class = "info">
+		<h3>Atlantis Voter Registration Form.</h3> 
+		<h4>Fill out all fields marked with an asterisk (*)</h4>
+	</div>
+
+		
+		<fieldset>
+		<legend>
+			<span class = "label">Eligibility</span>
+		</legend>
+		<span class = "number">1</span>
+		<div class = "fillup">
+				<span>* Are you a citizen of the Atlantis?</span>
+				
+				<div class = "citizenrow">
+					<input type = "radio" id = "filipino" value = "filipino" name = "citizen"><label for = "filipino" class = "">Yes</label>
+					<input type = "radio" id = "non_filipino" value = "non_filipino" name = "citizen"><label for = "non_filipino" class = "">No</label>
+				</div>
+				
+				<span>If you answered "No", do not complete this form.</span>
+		</div>
+		</fieldset><!--end fieldset eligibility-->
+
+		
+		<fieldset>
+		<legend>
+			<span class = "label">Name</span>
+		</legend>
+		<span class = "number">2</span>
+		<div class = "fillup">
+			<div class = "name_voter">
+				<input type = "text" id = "lastname" name = "last_name" class = "height width270"><br>
+				<label for = "lastname" class = "sub">Last Name</label>
+			</div>
+			
+			<div class = "name_voter">
+				<input type = "text" id = "firstname" name = "first_name" class = "height width270"><br>
+				<label for = "firstname" class = "sub">First Name</label>
+			</div>
+
+			<div class = "name_voter">
+				<input type = "text" id = "middlename" name = "middle_name" class = "height width270"><br>
+				<label for = "middlename" class = "sub">Middle Name</label>
+			</div>
+			
+			<div class = "name_voter suffix">
+				<input type = "text" id = "suffix" name = "suffix_name" class = "height width35"><br>
+				<label for = "suffix" class = "sub">Suffix</label>
+			</div>
+		</div>
+		</fieldset><!--end fieldset name-->
+		
+		<fieldset>
+		<legend>
+		<span class = "label">Identification</span>
+			<br>
+			<span class = "sub">Provide your birth date and your identification information.</span>
+		</legend>
+		<span class = "number">3</span>
+		<div class = "fillup">
+		
+		<div class = "birth">
+		<span class = "sub">Remember to write your birth date below.</span><br>
+		
+		<div class = "voter_birth three">
+		<input type = "text" id = "birthmonth" name = "birth_month" class = "height width35">
+		<label for = "birthmonth" class = "sub">MM</label>
+		</div>
+		
+		<div class = "voter_birth">
+		<input type = "text" id = "birthday" name = "birth_day" class = "height width35">
+		<label for = "birthday" class = "sub">DD</label>
+		</div>
+		
+		<div class = "voter_birth">
+		<input type = "text" id = "birthyear" name = "birth_year" class = "height width35">
+		<label for = "birthyear" class = "sub">YYYY</label>
+		</div>
+		</div>
+		<div class = "threecoltwo">
+		<div class = "driverslicense three">
+		<input type = "radio" id = "withdriverslicense" value = "with_drivers_license" name = "id_card">
+		<span class = "sub">I have a valid CO Driver's License or ID card.</span><br>
+		<span class = "sub">Write that number here:</span>
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		<span>-</span>
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		<span>-</span>
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		<input type = "text" id = "licensenumber" name = "license_number" class = "height width35">
+		</div>
+		
+		<div class = "wodriverslicense three">
+		<input type = "radio" id = "nodriverslicense" value = "no_drivers_license" name = "id_card">
+		<span class = "sub">I do not have Atlantis Driver's License or ID card</span><br>
+		<span class = "sub">Write the last four digits of your SSN here: </span>
+		<input type = "text" id = "ssnnumber" value = "X" name = "ssn_number" class = "height width35">
+		<input type = "text" id = "ssnnumber" value = "X" name = "ssn_number" class = "height width35">
+		<input type = "text" id = "ssnnumber" value = "X" name = "ssn_number" class = "height width35">
+		<span>-</span>
+		<input type = "text" id = "ssnnumber" value = "X" name = "ssn_number" class = "height width35">
+		<input type = "text" id = "ssnnumber" value = "X" name = "ssn_number" class = "height width35">
+		<span>-</span>
+		<input type = "text" id = "ssnnumber" name = "ssn_number" class = "height width35">
+		<input type = "text" id = "ssnnumber" name = "ssn_number" class = "height width35">
+		<input type = "text" id = "ssnnumber" name = "ssn_number" class = "height width35">
+		<input type = "text" id = "ssnnumber" name = "ssn_number" class = "height width35">
+		</div>
+		
+		<div class = "wocard three">
+		<input type = "radio" id = "noidcard" value = "no_id_card" name = "id_card">
+		<span class = "sub">I do not have a Atlantis Driver's License, ID card, or a Social Security Number.</span>
+		</div>
+		</div>
+		</div>
+		
+		</fieldset><!--end fieldset identification-->
+		
+		<fieldset>
+		<legend>
+			<span class = "label">The address where you live</span>
+		</legend>
+		<span class = "number">4</span>
+		<div class = "fillup">
+		
+		<div class = "currentadd">
+		<div class = "currentaddrowone currentaddcolone">
+		<input type = "text" id = "currentaddress" name = "current_address" class = "height width480"><br>
+		<label for = "currentaddress" class = "sub">Address(no. P.O. Boxes)</label>
+		</div>
+		
+		<div class = "currentaddrowone">
+		<input type = "text" id = "currentunitnumber" name = "current_unit_number" class = "height width200"><br>
+		<label for = "currentunitnumber" class = "sub">Unit Number</label>
+		</div>
+		
+		<div class = "currentaddrowone">
+		<input type = "text" id = "currentcity" name = "current_city" class = "height width170"><br>
+		<label for = "currentcity" class = "sub">City or Town</label>
+		</div>
+		<br>
+		
+		<div class = "currentaddrowtwo">
+		<input type = "text" id = "currentstate" name = "current_state" class = "height"><br>
+		<label for = "currentstate" class = "sub">State</label>
+		</div>
+		
+		<div class = "currentaddrowtwo">
+		<input type = "text" id = "currentzipcode" name = "current_zipcode" class = "height"><br>
+		<label for = "currentzipcode" class = "sub">Zip Code</label>
+		</div>
+		
+		<br>
+		<input type = "checkbox" id = "homeless" value = "i_am_homeless" name = "voter_homeless">
+		<span class = "sub">I am homeless. This is a location I regularly return to. I have also provided a mailing address in Section 5.</span>
+		</div>
+		</div>
+		
+		</fieldset><!--end fieldset the address where you live-->
+		
+		<fieldset>
+		<legend>
+			<span class = "label">The address where you receive mail</span>
+		</legend>
+		<span class = "number">5</span>
+		<div class = "fillup">
+		
+		<div class = "mailaddrowone mailaddrowonecolone">
+		<input type = "checkbox" id = "sameaddress" value = "same_address" name = "same_address">
+		<span class = "sub">Same as above</span>
+		</div>
+		
+		<div class = "mailaddrowone mailaddrowonecoltwo">
+		<input type = "text" id = "mailaddress" name = "mail_address" class = "height width750">
+		<label for = "mailaddress" class = "sub">Address</label>
+		</div>
+		
+		
+		<br>
+		<div class = "mailaddrowtwo">
+		<input type = "text" id = "mailcity" name = "mail_city" class = "height width200">
+		<label for = "mailcity" class = "sub">City or Town</label>
+		</div>
+		
+		<div class = "mailaddrowtwo">
+		<input type = "text" id = "mailstate" name = "mail_state" class = "height width200">
+		<label for = "mailstate" class = "sub">State</label>
+		</div>
+		
+		<div class = "mailaddrowtwo">
+		<input type = "text" id = "mailzip" name = "mail_zip" class = "height width200">
+		<label for = "mailzip" class = "sub">Zip Code</label>
+		</div>
+		
+		</div>
+		</fieldset><!--end fieldset the address where you receive email-->
+		
+		<fieldset>
+		<legend>
+			<span class = "label">The address to mail your ballot</span>
+			<br>
+			<span class = "sub">The County will mail your ballot here until you say otherwise.</span>
+		</legend>
+		<span class = "number">6</span>
+		<div class = "fillup">
+		
+		<div class = "ballotaddrowone ballotaddrowonecolone">
+		<input type = "checkbox" id = "sameaddress" value = "same_address" name = "same_address">
+		<span class = "sub">Same as above</span>
+		</div>
+		
+		<div class = "ballotaddrowone ballotaddrowonecoltwo">
+		<input type = "text" id = "ballotaddress" name = "ballot_address" class = "height width750">
+		<label for = "ballotaddress" class = "sub">Address</label>
+		</div>
+		<br>
+		
+		<div class = "ballotaddrowtwo">
+		<input type = "text" id = "ballotcity" name = "ballot_city" class = "height width200">
+		<label for = "ballotcity" class = "sub">City or Town</label>
+		</div>
+		
+		<div class = "ballotaddrowtwo">
+		<input type = "text" id = "ballotstate" name = "ballot_state" class = "height width200">
+		<label for = "ballotstate" class = "sub">State</label>
+		</div>
+		
+		<div class = "ballotaddrowtwo">
+		<input type = "text" id = "ballotzip" name = "ballot_zip" class = "height width200">
+		<label for = "ballotzip" class = "sub">Zip Code</label>
+		</div>
+		<br>
+		
+		</div>
+		</fieldset><!--end fieldset the address to mail your ballot-->
+		
+		<fieldset>
+		<legend>
+			<span class = "label">Political affiliation</span>
+			<br>
+			<span class = "sub">Choose only 7a or 7b</span>
+		</legend>
+		<span class = "number">7</span>
+		<div class = "fillup">
+		<span class = "sub">I would like to be a member of the following political party:</span>
+		<br>
+		<div class = "party_party">
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "americanconstitution" value = "american_constitution" name = "political_party">
+		<label for = "americanconstitution" class = "sub">Atlantis Constitution</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "approvalvoting" value = "approval_voting" name = "political_party">
+		<label for = "approvalvoting" class = "sub">Approval Voting</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "democratic" value = "democratic_party" name = "political_party">
+		<label for = "democratic"  class = "sub">Democratic</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "green" value = "green_party" name = "political_party">
+		<label for = "green"  class = "sub">Green</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "libertarian" value = "libertarian_party" name = "political_party">
+		<label for = "libertarian"  class = "sub">Libertarian</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "republican" value = "republican_party" name = "political_party">
+		<label for = "republican" class = "sub">Republican</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "unity" value = "unity_party" name = "political_party">
+		<label for = "unity" class = "sub">Unity</label>
+		</div>
+		
+		</div>
+		
+		<input type = "checkbox" id = "unaffiliated" value = "unaffiliated_party" name = "unaffiliated_party">
+		<span class = "sub">
+			I would like to be Unaffiliated, but I want to receive the following party's ballot in the next 
+			primary election:
+		</span>
+		<br>
+		<div class = "party_party">
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "unallmajor" value = "all_major" name = "un_political">
+		<label for = "unallmajor" class = "sub">All Major Parties' Ballots</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "unamerican" value = "un_american" name = "un_political">
+		<label for = "unamerican" class = "sub">Atlantis Constitution</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "undemocratic" value = "un_democratic" name = "un_political">
+		<label for = "undemocratic" class = "sub">Democratic</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "ungreen" value = "un_green" name = "un_political">
+		<label for = "ungreen" class = "sub">Green</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "unlibertarian" value = "un_libertarian" name = "un_political">
+		<label for = "unlibertarian" class = "sub">Libertarian</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "unrepublican" value = "un_republican" name = "un_political">
+		<label for = "unrepublican" class = "sub">Republican</label>
+		</div>
+		
+		<div class = "partyallrowallcol">
+		<input type = "radio" id = "ununity" value = "un_unity" name = "un_political">
+		<label for = "ununity" class = "sub">Unity</label>
+		</div>
+		
+		</div>
+		</div>
+		</fieldset><!--end fieldset political affiliation-->
+		
+		<fieldset>
+		<legend>
+			<span class = "label">Updating a current record?</span> 
+			<br>
+			<span class = "sub">If so, you <em>must</em> provide the applicable changes here.</span>
+		</legend>
+		<span class = "number">8</span>
+		<div class = "fillup">
+		
+		<div class = "updaterowone">
+		<div class = "updaterowoneallcol">
+		<input type = "radio" id = "notupdating" value = "not_updating">
+		<label for = "notupdating" class = "sub">I am not updating a current record</label>
+		</div>
+		
+		<div class = "updaterowoneallcol">
+		<input type = "radio" id = "nolongeroverseas" value = "no_longer_overseas">
+		<label for = "nolongeroverseas" class = "sub">I am no longer overseas</label>
+		</div>
+		
+		<div class = "updaterowoneallcol">
+		<input type = "radio" id = "nolongerabsent" value = "no_longer_absent">
+		<label for = "nolongerabsent" class = "sub">I am no longer absent from Atlantis due to military service</label>
+		</div>
+		</div>
+		
+		<div class = "updaterowtwo">
+		<div class = "updaterowtwoallcol">
+		<input type = "text" id = "prevhomeaddress" name = "prev_home_address" class = "height width450">
+		<label for = "prevhomeaddress" class = "sub">Previous home address</label>
+		</div>
+		
+		<div class = "updaterowtwoallcol">
+		<input type = "text" id = "prevlegalname" name = "prev_legal_name" class = "height width450">
+		<label for = "prevlegalname" class = "sub">Previous legal name</label>
+		</div>
+		</div>
+		<br>
+		
+		<div class = "updaterowthree">
+		
+		<div class = "updaterowthreeallcol">
+		<input type = "text" id = "prevmailingaddress" name = "prev_mailing_address" class = "height width450">
+		<label for = "prevmailingaddress" class = "sub">Previous mailing address</label>
+		</div>
+		
+		<div class = "updaterowthreeallcol">
+		<input type = "text" id = "prevpartyaffiliation" name = "prev_party_affiliation" class = "height width450">
+		<label for = "prevpartyaffiliation" class = "sub">Previous party affiliation</label>
+		</div>
+		</div>
+		<br>
+	
+		</div>
+		</fieldset><!--end fieldset updating the current record-->
+		
+		<fieldset>
+		<legend>
+			<span class = "label">Declaration</span>
+		</legend>
+		<span class = "number">9</span>
+		<div class = "fillup">
+		<p class = "sub">
+			<span class = "bold">Warning:</span> It is a Class 1 misdemeanor to swear or affirm falsely as to your qualifications to register to vote. 
+		</p>
+		
+		<br>
+
+		<p class = "sub">
+			<span class = "bold">Self-Affirmation:</span> Quam vulputate dignissim suspendisse in est. Ipsum a arcu cursus vitae. Sagittis orci a scelerisque purus semper. Orci 
+			dapibus ultrices in iaculis nunc. Sit amet est placerat in egestas erat imperdiet sed. Sapien eget mi proin sed libero 
+			enim sed. Enim nunc faucibus a pellentesque sit amet porttitor. Dignissim cras tincidunt lobortis feugiat vivamus at 
+			augue eget arcu. Aenean sed adipiscing diam donec adipiscing. Gravida neque convallis a cras semper auctor neque vitae. 
+			Egestas sed tempus urna et pharetra pharetra. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque 
+			eleifend. Faucibus in ornare quam viverra orci sagittis eu volutpat. Iaculis eu non diam phasellus vestibulum lorem sed risus 
+			ultricies.
+		</p>
+		
+		<div class = "declarationrowtwo">
+		<input type = "text" id = "signature" name = "voter_signature" class = "height width450">
+		<label for = "signature" class = "sub">Signature or mark</label>
+		</div>
+		
+		<div class = "declarationrowtwo">
+		<input type = "text" id = "signaturewitness" name = "signature_witness" class = "height width450">
+		<label for = "signaturewitness" class = "sub">Witness Signature</label>
+		</div>
+		
+		<br>
+		
+		
+		<br>
+		<span class = "sub">If you are unable to sign, you must make a mark and have the mark witnessed by another person.</span>
+		</div>
+		</fieldset><!--end fieldset declaration-->
+		
+		<fieldset>
+		<legend>
+			<span class = "label">Optional information</span>
+		</legend>
+		<span class = "number">10</span>
+		<div class = "fillup">
+		
+		<div class = "optionalrowone">
+		
+		<div class = "optionalrowoneallcol">
+		<input type = "text" id = "phonenumber" name = "phone_number" class = "height width320">
+		<label for = "phonenumber" class = "sub">Phone number with area code</label>
+		</div><!--end optionalrowoneallcol-->
+		
+		<div class = "optionalrowoneallcol">
+		<input type = "text" id = "genderidentity" name = "gender_identity" class = "height width320">
+		<label for = "genderidentity" class = "sub">Gender Identity</label>
+		</div><!--end optionalrowoneallcol-->
+		
+		<input type = "checkbox" id = "electionjudge" value = "election_judge" name = "voter_judge">
+		<label for = "electionjudge" class = "sub">I would like to be an election judge</label>
+		</div><!--optionalrowone-->
+		<br>
+		
+		<br>
+		
+		<div class = "optionalrowtwoallcol sub">
+			I want to receive election information by email: 
+			<br>
+			(You will not receive a ballot by email)
+		</div><!--end optionalrowtwoallcol sub-->
+		
+		<div class = "optionalrowtwoallcol">
+		<input type = "text" id = "emailaddress" name = "email_address" class = "height width380">
+		<label for = "emailaddress" class = "sub">Email address</label>
+		</div><!--end optionalrowtwoallcol-->
+		</div><!--end fillup-->
+		</fieldset><!--end fieldset optional information-->
+		
+
+</form>
+</body>
+</html>

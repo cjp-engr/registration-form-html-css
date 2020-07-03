@@ -1,0 +1,252 @@
+*{
+	margin : 0;
+	
+}
+
+body{
+	font-family : "Century Gothic";
+}
+
+header{
+	text-align : center;
+	padding : 30px;
+}
+
+.info{
+	display : block;
+	padding : 20px;
+	text-align : center;
+	margin : auto;
+}
+
+.container{
+	width : 95%;
+	margin-left : auto;
+	margin-right : auto;
+	display : block;
+}
+
+.label{
+	font-size : 1.2em;
+	font-weight : bold;
+}
+
+.sub{
+	font-size : 0.8em;
+}
+
+legend,
+.fillup,
+.number{
+	float : left;
+}
+
+legend{
+	width : 15%;
+
+}
+
+.number{
+	
+	padding : 5px 10px;
+	font-weight : bold;
+	box-sizing : border-box;
+	border : 2px solid red;
+	color : white;
+	background-color: black;
+	border-radius : 50% 50%;
+}
+
+.fillup{
+	margin : 15px;
+	vertical-align : top;
+	width : 78%;
+	box-sizing : border-box;
+	
+}
+
+.citizenrow{
+	padding : 10px;
+	margin : 10px;
+	display : inline-block;
+}
+
+.name_voter {
+	width : 290px;
+	display: inline-block;
+	
+}
+
+.suffix{
+	width : 40px;
+}
+
+.width35{
+	width : 35px;
+	
+}
+
+.width270{
+	width : 270px;
+}
+
+.voter_birth{
+	width : 50px;
+	display : inline-block;
+	padding-bottom : 5px;
+}
+
+.birth{
+	width : 200px;
+	float : left;
+
+}
+
+.threecoltwo{
+	width : 75%;
+	float : left;
+	padding-left : 15px;
+}
+
+.currentaddrowone,
+.currentaddrowtwo{
+	width : 220px;
+	display : inline-block;
+	padding-bottom : 5px;
+}
+
+.currentaddcolone{
+	width : 500px;
+
+}
+
+.height{
+	height : 30px;
+	border-radius : 5px 5px;
+	
+}
+
+.width480{
+	width : 480px;
+}
+
+.width200{
+	width : 200px;
+}
+
+.width170{
+	width : 170px;
+}
+
+.mailaddrowone,
+.mailaddrowtwo{
+	display : inline-block;
+	vertical-align : top;
+	padding-bottom : 5px;
+}
+
+.mailaddrowonecoltwo{
+	width : 800px;
+	padding-left : 15px;
+
+}
+
+.mailaddrowonecolone{
+	padding-right : 15px;
+
+}
+
+.width750{
+	width : 750px;
+}
+
+.mailaddrowtwo{
+	width: 220px;
+
+}
+
+.ballotaddrowone,
+.ballotaddrowtwo{
+	display : inline-block;
+	vertical-align : top;
+	padding-bottom : 5px;
+}
+
+.ballotaddrowonecolone{
+	padding-right : 15px;
+
+}
+
+.ballotaddrowonecoltwo{
+	padding-left : 15px;
+	width: 800px;
+
+}
+
+.ballotaddrowtwo{
+	width: 220px;
+
+}
+
+.party_party{
+	padding : 5px 5px 20px 5px;
+}
+
+.partyallrowallcol{
+	padding : 5px;
+	display : inline-block;
+}
+
+.updaterowoneallcol{
+
+	padding : 10px;
+	display : inline-block;
+}
+
+.updaterowtwoallcol,
+.updaterowthreeallcol{
+
+	display : inline-block;
+	width : 470px;
+	padding-bottom : 5px;
+}
+
+.width450{
+	width : 450px;
+}
+
+.bold{
+	font-weight : bold;
+}
+
+.declarationrowtwo{
+	width : 470px;
+	display : inline-block;
+	padding-bottom : 5px;
+	padding-top : 10px;
+}
+
+.optionalrowoneallcol{
+	width : 350px;
+	display : inline-block;
+	vertical-align : top;
+	padding-bottom : 5px;
+}
+
+.width320{
+	width : 320px;
+}
+
+.optionalrowtwoallcol{
+	width : 300px;
+	display : inline-block;
+	vertical-align : top;
+	padding-bottom : 5px;
+}
+
+.width380{
+	width : 380px;
+}
+
+
+
